@@ -18,7 +18,7 @@ document.addEventListener("deviceready", deviceIsReady, false);
 
 
 function deviceIsReady(){
-StatusBar.backgroundColorByHexString("#0c1e3e;");
+StatusBar.backgroundColorByHexString("#0c1e3e");
 document.addEventListener("backbutton", trapBackButton, false);
 
 }
